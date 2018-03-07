@@ -1,0 +1,108 @@
+/*Large smart tablets to 1200px(width smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px){
+    .header-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row { padding: 0 2%; }
+}
+
+
+/*Small smart tablets to large tablets from 768px to 1023px*/
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    .detail-information {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .about-box { margin-top: 10px;}
+    .about-box:last-child { margin-top: 10px; }    
+    .about-us-steps { margin-bottom: 40px; }
+    .about-us-steps:last-of-type { margin-bottom: 60px; }
+
+    .cellwatch-web-app { width: 50%; }
+    
+    .iconSM {
+        width: 17px;
+        margin-right: 5px;
+    }
+    
+    .staff-feature { font-size: 90%; }
+    
+    .hq-offices{
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .hq-city { font-size: 250%; }
+    .contact-form { width: 80%; }
+}
+
+
+
+/*Small smart phones to smart tablets from 481px to 767px*/
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row,
+    .header-text-box { padding: 0 4%; }
+    
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+/*    .main-navigation { display: none; }*/
+    .mobile-nav-icon { display: inline-block; }
+    
+    .main-navigation { 
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-navigation li {
+        display: block;
+    }
+    
+    .main-navigation li a:link,
+    .main-navigation li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+    
+    .detail-information {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .about-us-steps div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+
+    .cellwatch-web-app { width: 40px; }
+
+    .about-box:first-child { text-align: center; }
+
+    .about-us-steps { margin-bottom: 20px; }
+    .about-us-steps:last-of-type { margin-bottom: 20px; }
+}
+
+
+/*Small screen devices from 0px to 480px*/
+@media only screen and (max-width:480px){
+    section { padding: 25px 0; }
+    .contact-form { width: 100%; }
+}
